@@ -1,0 +1,22 @@
+This  is my first java basic project.
+ATM
+here I have 4 operations those are 
+1.viewing the balance 
+2.withdrawing the money
+3.deposite the money
+4.ministatement
+And I took 4 classes and they are
+Atm
+Atmoperationsimpl
+Userinterface 
+AtmInterface
+------------------------------------------------------------------------------------------------------------------
+Atm class= here I take only 3 private variables for accessing those variables I take getter and setter method and a default constructor also used to ensure that there is no problem occurring for initialization of the objects and string to string method also for type checking
+------------------------------------------------------------------------------------------------------------------
+AtmInterface= here i used the interface just to implement the methods only those are implemented in Atmoperationsimpl class 
+------------------------------------------------------------------------------------------------------------------
+Atmoperationsimpl= here this class is used for operations implementations for deposite withdraw balance and      ministatement and there I created atm class object to accessing the variables and implemented getter and setter method and I used the map for storing the transaction for ministatement and lastly I used set for unique keys it menas if amount like 500 entered it redirected to hashmap and stored in the keyset
+------------------------------------------------------------------------------------------------------------------
+Userinterface= here it is the main method it contains scanner classes and some conditions and method calling also
+
+
