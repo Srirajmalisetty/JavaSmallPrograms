@@ -35,6 +35,6 @@ public static void main(String[] args) {
 		}
 		
 	}
-	System.out.println("\n First Non Repative Character:" +nonrepeat);
+	System.out.println("\n First Non Repative Character: " +nonrepeat);
 }
 }
